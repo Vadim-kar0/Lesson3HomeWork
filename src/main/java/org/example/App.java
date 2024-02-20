@@ -1,8 +1,9 @@
 package org.example;
 
-import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
-public class WorkingProcess {
+public class App {
     public static void main(String[] args) {
         //BaseEmployee employee1 = Employee.create("Employee1", new int[]{2020,10,13},1000); // Exception by birthday
         //BaseEmployee employee2 = Employee.create("Employee2", new int[]{1994,10,13},0);    // Exception by salary
@@ -23,7 +24,6 @@ public class WorkingProcess {
             Boss.upSalary(employee, 1.2f);
             System.out.println(employee.getSalary());
         }
-
     }
 
 }
